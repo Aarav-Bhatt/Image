@@ -1,0 +1,36 @@
+body {
+    color: aliceblue;
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/006/852/869/small/abstract-blue-neon-color-light-effect-horizontal-on-black-background-free-vector.jpg") ;
+text-align: center;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat ;
+}
+
+.a {
+    color: rgb(248, 155, 232);
+}
+
+#aarav {
+    background-color: darkviolet;
+    border-radius: 10px  ;
+    border: 10px rgb(248, 155, 232) ridge ;
+    box-shadow: 2px 2px 10px blue;
+
+}
+#b {
+    background-color: pink;
+    border-radius: 10px  ;
+    border: 10px rgb(2, 0, 10) ridge ;
+    width: 300px;
+    height: 250px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 255, 0.242);
+}
+#c {
+    background-color: pink;
+    border-radius: 10px  ;
+    border: 10px rgb(2, 0, 10) ridge ;
+    width: 300px;
+    height: 250px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 255, 0.242);
+}

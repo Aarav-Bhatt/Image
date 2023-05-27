@@ -1,0 +1,41 @@
+<html> 
+    <head>
+        <title>Image Identification</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+
+    </head>
+    <body>
+        <center>
+        <h1>Image Identification</h1>
+        <h3>Model is trained to identify the following objects:</h3>
+        <div id="aarav">
+        <h1 class="a">Mobile </h1><hr>
+        <h1 class="a">Hotwheels</h1><hr>
+        <h1 class="a">Books</h1><hr>
+        <h1 class="a">Cube</h1><hr>
+        <h1 class="a">Neckband</h1><hr>
+        <h1 class="a">Mouse</h1><hr>
+     
+    </div>
+        <h4>Webcam View</h4>
+        <div id="b"></div>
+        <br>
+        <button onclick="take_snapshot()">Capture Image</button>
+        <br>
+        <br>
+        <div id="c"></div>
+        <button onclick="check()">Identify Image</button>
+        <br>
+        <br>
+        <h4 class="hi">Object=<span id="d"></span></h4>
+        <br>
+        <br>
+        <h4 class="hi">Accuracy=<span id="e"></span></h4>
+    </center>
+    <script src="main.js"></script>
+    </body>
+    
+</html>
